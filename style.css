@@ -1,0 +1,62 @@
+.cell{ 
+    width: 75px;
+    height:75px;
+    border:2px solid;
+    margin: 4px;
+    background-color: pink;
+    box-shadow: 0 0 0 2PX;
+    line-height: 75px;
+    font-size: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.cell:hover {
+    background-color: rgb(221, 68, 96);
+    width: 78px;
+    height:78px;
+}
+
+ #gameContainer{
+    font-family: "Permanent Marker" , cursive;
+    text-align: center;
+ }
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 260px;
+    margin:auto;
+}
+
+.classX {
+    background-color: green;
+}
+
+.classO {
+    background-color: red;
+}
+
+#restartBtn {
+    background-color:lightblue;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 20px;
+    border-color: lightblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    color:blueviolet;
+    font-size: 20px;
+
+}
+
+#restartBtn:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
